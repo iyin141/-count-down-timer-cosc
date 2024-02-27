@@ -1,0 +1,82 @@
+/* display block from 1000px*/
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: #BCCCDC;
+    padding: 11%;
+    padding-top:5em;
+    align-items: center;
+}
+.main-part{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+   
+}
+.main-part img{
+    border-radius: 2%;
+    width: 550px;
+    height:auto;
+}
+.main-part .text{
+    width:51%;
+    padding-left: 3%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.main-part .text h1{
+    font-size: 1.75em;
+    color: #0B64A4;
+    letter-spacing: 0.15em;
+}
+.main-part .text h3 {
+    font-family: "Roboto", sans-serif;
+        font-weight: 550;
+        font-style: normal;
+        font-size: 1.15em;
+        letter-spacing: 3px;
+    margin-top: 10px;
+}
+.main-part .text p{
+    font-family: "Roboto", sans-serif;
+        font-weight:450;
+        font-style: normal;
+        font-size: 0.9em;
+        letter-spacing: 3px;
+        line-height: 25px;
+        color: #48648E;
+        margin-top: 30px;
+}
+.main-part .countdown{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    padding-top: 20px;
+    margin-left: -10px;
+}
+.main-part .countdown .item{
+    align-items: center;
+    justify-content: center;
+    background-color: #063251;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-bottom: 5px;
+    width: 80px;
+    text-align: center;
+    display: grid;
+    height: 80px;
+    color: white;
+    border-radius: 5%;
+}
+.main-part .item h4{
+    font-weight: 200;
+}

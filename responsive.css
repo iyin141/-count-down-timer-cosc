@@ -1,0 +1,72 @@
+@media only screen and (max-width:600px){
+    body{
+        padding: 5%;
+        padding-top: 5em;
+    }
+    .main-part .text h1{
+      font-size: 1.2em;
+    }
+    .main-part .text p  {
+        font-size: 0.9em;
+        letter-spacing: 0px;
+    }
+    .main-part .text{
+        width:100%;
+    }
+    .main-part .text h3{
+        font-size: 0.8em;
+    }
+    .main-part .text h4 {
+            font-size: 0.8em;
+        }
+    .main-part .countdown{
+        max-width: 100%;
+    }
+    .main-part .countdown .item{
+    width: 70px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width:998px){
+    body {
+            padding: 5%;
+            padding-top: 5em;
+        }
+        .main-part .text {
+            width: 100%;
+            padding-left: 0%;
+        }       
+        .main-part img{
+            width: 100%;
+        }
+}
+@media screen and (min-width:999px) and (max-width:1200px){
+    body {
+            padding: 3%;
+            padding-top: 5em;
+        }
+        .main-part{
+            width: 95%;
+        }
+                 .main-part .text h1 {
+                     font-size: 1.8em;
+                 }
+        
+                 .main-part .text p {
+                     font-size: 1.2em;
+                     letter-spacing: 0px;
+                 }
+        
+                 .main-part .text {
+                     width: 48%;
+                 }
+                .main-part img{
+                    width: 52%;
+                }
+                 .main-part .text h3 {
+                     font-size: 1.2em;
+                 }
+        
+                 .main-part .text h4 {
+                     font-size: 0.8em;
+                 }
+}
